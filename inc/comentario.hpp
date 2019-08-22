@@ -1,3 +1,5 @@
+#ifndef COMENTARIO_HPP
+#define COMENTARIO_HPP
 #include <iostream>
 #include <string>
 
@@ -16,3 +18,4 @@ class Comentario {
         void set_autor(std::string autor);
         void set_texto(std::string texto);        
 };
+#endif
